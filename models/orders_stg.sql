@@ -23,7 +23,7 @@ SELECT
     Updated_at,
     current_timestamp as dbt_updated_at
 FROM
-    L1_LANDING.ORDERS
+    {{ source('landing', 'orders') }}
 
 {% if is_incremental() %}
 where  Updated_at >= (select max(dbt_updated_at) from {{ this }})
