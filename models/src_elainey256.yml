@@ -35,9 +35,9 @@ sources:
       - name: suppliers
       - name: products
 
-  - name: training
+  - name: L1_LANDING
     database: ELAINE256
-    schema: TRAINING
+    schema: L1_LANDING
     tables:
       - name: city_temperature
       - name: sales_us
