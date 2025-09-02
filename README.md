@@ -2,7 +2,7 @@
 # 🛒 E-commerce dbt Project
 
 This project uses **dbt (data build tool)** to transform raw e-commerce data into analytics-ready models.  
-It covers core business entities such as **customers, products, stores, employees, suppliers, orders, and order items**, and organizes them into **fact** and **dimension** tables for analysis.  
+It covers core business entities such as customers, products, stores, employees, suppliers, orders, and order items, and organizes them into **fact** and **dimension** tables for analysis.  
 
 ## With this setup, you can easily answer key business questions like:
 - Who are the top customers by revenue?
